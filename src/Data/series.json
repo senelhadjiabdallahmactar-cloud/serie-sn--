@@ -4,7 +4,7 @@
     "titre": "Dinama Nekh",
     "genre": ["Comédie", "Social"],
     "chaine": "RTS1",
-    "annee": 2015,
+    "annee": 2012,
     "saisons": 3,
     "note": 4.5,
     "synopsis": "Dinama Nekh est une série télévisée sénégalaise qui utilise la satire pour exposer les réalités sociales urbaines de Dakar.",
@@ -38,7 +38,7 @@
     "synopsis": "Maîtresse d'un homme marié est un drame social sénégalais qui plonge le spectateur dans le quotidien tumultueux de plusieurs femmes à Dakar. L'intrigue centrale gravite autour du personnage de Marème Dial, une femme libre et ambitieuse qui assume publiquement sa relation amoureuse avec Cheikh Diagne, un homme marié à Lalla.Au-delà de ce triangle amoureux, la série dresse le portrait croisé de plusieurs autres figures féminines (Djalika, Amy Diom, Binta, Dior) confrontées aux dures réalités de la société sénégalaise contemporaine. Elle lève le voile sur des sujets intimes et souvent passés sous silence, bousculant les structures familiales traditionnelles et la perception du couple.",
     "image": "/images/maitresse.jpg",
     "acteurs": ["Marème Dial ", "Lalla Piem Ndiaye", "Cheikh Diagne" , "Dalanda Lopez"],
-    "enCours": true
+    "enCours": false
   },
 
   {
@@ -52,7 +52,7 @@
     "synopsis": "Cette saga met en scène les conflits familiaux, les trahisons amoureuses et les défis économiques de la société sénégalaise contemporaine. L'intrigue centrale repose sur les relations tumultueuses entre les personnages de Jojo et Soumboulou, rythmées par les interventions comiques et les complots de la troupe Soleil Levant.",
     "image": "/images/wiriwiri.jpg",
     "acteurs": ["Cheikhou Gueye","Soumboulou Bathily","Cheikh Ndiaye"],
-    "enCours": true
+    "enCours": false
   },
 
   {
@@ -71,16 +71,16 @@
 
   {
     "id": 6,
-    "titre": "Bout de Bois de Dieu",
-    "genre": ["Drame","Historique"],
-    "chaine": "Canal+",
-    "annee": 2016,
-    "saisons": 3,
-    "note": 4.0,
-    "synopsis": "Adaptée du roman de Sembène Ousmane, cette série retrace la grande grève des cheminots de la ligne Dakar-Niger en 1947-1948. Un récit épique sur la dignité, la lutte ouvrière et la résistance contre le colonialisme.",
-    "image": "/images/boutdebois.jpg",
-    "acteurs": ["Ramatoulaye","Ibrahima Bakayoko"],
-    "enCours": false
+    "titre": "Timis - L'Or Noir",
+    "genre": ["Drame social","Thriller Politique"],
+    "chaine": "Evenprod",
+    "annee": 2026,
+    "saisons": 1,
+    "note": 5.0,
+    "synopsis": "TIMIS raconte l’histoire de Fella Ngom et Sémou, deux jeunes Sénégalais confrontés à des systèmes corrompus… à des niveaux différents.Fella, inspectrice du Trésor, découvre une corruption généralisée au cœur d’un ministère stratégique. En voulant faire respecter la loi, elle devient la cible d’un réseau prêt à tout pour la faire taire.Sémou, jeune journaliste, met la main sur un dossier explosif lié à l’or noir au Sénégal. Il comprend vite que la vérité a un prix.Face à eux, le puissant ministre Kanté.À leurs côtés, Matar Lô, dernière force syndicale prête à tout pour résister.Face aux puissants, une seule question :se taire pour survivre…ou parler au risque de tout perdre ?.",
+    "image": "/images/timis.jpg",
+    "acteurs": ["Fella Ngom","Sémou","Matar Lô","Kanté"],
+    "enCours": true
   },
 
   {
@@ -122,61 +122,61 @@
     "synopsis": "La série plonge au cœur de la société sénégalaise contemporaine à travers les crises successives de la famille Diouf. Papa Diouf, un homme d'affaires prospère et respecté, voit son empire et son équilibre familial menacés par l'avarice et les non-dits.Le conflit éclate lorsque sa demi-sœur, Thiaba, décide de réclamer de manière agressive sa part de l'héritage familial, initiant une guerre ouverte. En parallèle, la gestion de l'entreprise avec sa fille aînée Amina et les crises d'adolescence de sa cadette Ndèye Ndiaye fragilisent son foyer. Entre trahisons amicales, secrets du passé révélés et rivalités financières, chaque personnage fait face à des « surprises » (mbettel en wolof) qui bouleversent définitivement leur destin.",
     "image": "/images/mbettel.jpg",
     "acteurs": ["Papa Diouf","Rouba","Amina","Ndèye Ndiaye", "Mandione","Serigne Ngagne"],
-    "enCours": true
+    "enCours": false
   },
 
   {
     "id": 10,
-    "titre": "El Hadj Ndiaye",
-    "genre": ["Religieux", "Famille"],
-    "chaine": "RTS1",
-    "annee": 2013,
-    "saisons": 4,
-    "note": 3.9,
-    "synopsis": "Portrait d'un homme de foi confronté aux réalités complexes de la société moderne. Entre devoir religieux et tentations du monde, cette série questionne les valeurs et la spiritualité dans le Sénégal contemporain.",
-    "image": "/images/El-Hadj-Ndiaye-artiste.png",
-    "acteurs": ["Mamadou Ba","Fatimata Diallo", "Cheikh Ndiaye"],
+    "titre": "Lady Diama",
+    "genre": ["Drame social", "Psychologique"],
+    "chaine": "Marodi TV",
+    "annee": 2025,
+    "saisons": 1,
+    "note": 4.9,
+    "synopsis": "La série explore le dilemme complexe des traditions matrimoniales et religieuses au Sénégal. Pour sauver son couple après trois divorces avec un dignitaire religieux, l'héroïne accepte de contracter un mariage temporaire avec un autre homme (une pratique liée au concept de Tahalil). Le compromis vire au cauchemar lorsque le nouveau mari refuse de divorcer. Lady Diama retourne malgré tout auprès de son ex-mari, se retrouvant piégée dans une situation illégale et complexe de bigamie.",
+    "image": "/images/lady-diama.jpg",
+    "acteurs": ["Lady Diama","Serigne Ndiaye", "Elhadj Ndiaye" ,"Asmao","Tayib"],
     "enCours": false
   },
 
   {
     "id": 11,
-    "titre": "Une Certaine Regard",
-    "genre": ["Aventure","Social"],
-    "chaine": "Canal+",
-    "annee": 2022,
-    "saisons": 1,
+    "titre": "Ma Belle Famille",
+    "genre": ["Comédie Dramatique","Satire Social"],
+    "chaine": "TFM",
+    "annee": 2026,
+    "saisons": 3,
     "note": 4.7,
-    "synopsis": "Une plongée spectaculaire dans le monde des pêcheurs artisanaux sénégalais. Face aux grandes compagnies de pêche industrielle, ces hommes et femmes se battent pour préserver leurs traditions et leur mode de vie ancestral.",
-    "image": "/images/eaux.jpg",
-    "acteurs": ["Ibrahima Diop","Yacine Sarr","Oumar Faye"],
-    "enCours": false
+    "synopsis": "L'histoire est centrée sur le concept de la belle-famille (goro) au Sénégal. Elle met en scène la cohabitation tumultueuse, les rivalités et les ingérences des proches au sein d'un ménage. La série explore avec dérision et réalisme les tensions entre belles-mères et belles-filles, les conflits financiers, les secrets d'alcôve et les commérages qui menacent constamment l'harmonie des couples. La saison 3 pousse ces intrigues à leur paroxysme au sein du grand réseau familial complexe appelé Jubboo.",
+    "image": "/images/belle-famille.jpg",
+    "acteurs": ["Mame Boye","Fadel","Khadija","Petit","Papa","Papi", "Kya", "Malaw","Amira","Rose", "Rahmane","Safi"],
+    "enCours": true
   },
 
   {
     "id": 12,
-    "titre": "Lingeer",
-    "genre": ["Historique","Drame"],
-    "chaine": "RTS1",
-    "annee": 2019,
+    "titre": "Takander",
+    "genre": ["Action","Drame"],
+    "chaine": "Sunu Yeuf",
+    "annee": 2025,
     "saisons": 2,
-    "note": 4.8,
-    "synopsis": "L'épopée grandiose d'une reine guerrière du royaume du Cayor au XIXe siècle. Une femme exceptionnelle qui défie les conventions de son époque pour diriger son peuple avec courage et sagesse face aux conquérants.",
-    "image": "/images/Lingeer.jpg",
-    "acteurs": ["Ndèye Marie Thiam","Laye Diaw","Awa Sène"],
+    "note": 4.9,
+    "synopsis": "L'histoire suit Boul, un jeune franco-sénégalais ayant grandi à Paris. Il gagne sa vie en organisant des combats clandestins pour le compte de Franck, un employeur raciste et abusif. Fatigué de cette oppression et rêvant de devenir un grand promoteur de spectacles, Boul prend un immense risque : il détourne 300 000 euros appartenant à Franck et s'enfuit à Dakar avec sa compagne Aïssa.",
+    "image": "/images/takander.jpg",
+    "acteurs": ["Boul","Aïssa","Takander","Franck", "Diakhoumpa", "Yass"],
     "enCours": false
   },
   {
     "id": 13,
-    "titre": "Ramatoulaye",
+    "titre": "Tuumal",
     "genre": ["Romance","Social"],
-    "chaine": "2STV",
-    "annee": 2021,
-    "saisons": 3,
+    "chaine": "Canal+",
+    "annee": 2026,
+    "saisons": 1,
     "note": 4.3,
-    "synopsis": "Inspirée de la littérature sénégalaise, cette série moderne suit une femme qui navigue entre les exigences de la tradition et ses aspirations personnelles dans le Sénégal d'aujourd'hui. Un portrait fort et émouvant.",
-    "image": "/images/ramatoulaye.jpg",
-    "acteurs": ["Mariama Fall","Pape Ibra Ndiaye","Coumba Sy"],
+    "synopsis": "Portant un titre évocateur en wolof (qui signifie l'accusation, la calomnie ou le soupçon), Tuumaal plonge les téléspectateurs au cœur des secrets de famille, des trahisons amoureuses et des enquêtes judiciaires. ",
+    "image": "/images/tuumal.jpg",
+    "acteurs": ["Diariatou Sow","Fatou Kine Gueye","Souleymane Faye" ,"Abdoulaye Diakhaté"],
     "enCours": true
   },
 
@@ -185,12 +185,12 @@
     "titre": "Dakar By Night",
     "genre": ["Policier","Thriller"],
     "chaine": "RDV",
-    "annee": 2023,
+    "annee": 2022,
     "saisons": 2,
     "note": 4.5,
     "synopsis": "Dans les nuits électriques de Dakar, une équipe d'inspecteurs d'élite traque un mystérieux réseau criminel. Tensions, fausses pistes et retournements de situation dans ce thriller urbain haletant.",
     "image": "/images/dakar.jpeg",
     "acteurs": ["Samba Ndiaye","Awa Toure","Ibou Fall"],
-    "enCours": true
+    "enCours": false
   }
 ]
