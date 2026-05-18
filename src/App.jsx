@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { FavorisProvider } from './context/FavorisContext'
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar'
 import Accueil from './pages/Accueil'
 import Detail from './pages/Detail'
 import Favoris from './pages/Favoris'
