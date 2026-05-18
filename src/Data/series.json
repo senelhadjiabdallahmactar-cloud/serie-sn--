@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "titre": "Dinama Nekh",
+    "genre": ["Comédie", "Social"],
+    "chaine": "RTS1",
+    "annee": 2015,
+    "saisons": 3,
+    "note": 4.5,
+    "synopsis": "Dinama Nekh est une série télévisée sénégalaise qui utilise la satire pour exposer les réalités sociales urbaines de Dakar.",
+    "image": "/images/dinamanekh.jpg",
+    "acteurs": ["Daro","Maimouna"],
+    "enCours": false
+  },
+
+  {
+    "id": 2,
+    "titre": "Pod et Marichou",
+    "genre": ["Romance","Drame"],
+    "chaine": "TFM",
+    "annee": 2016,
+    "saisons": 4,
+    "note": 4.8,
+    "synopsis": "Pod et Marichou est un feuilleton télévisé dramatique sénégalais qui suit la vie de couple tumultueuse de deux personnages principaux, Pod et Marichou. L'histoire débute par leur coup de foudre et leur mariage, mais plonge rapidement le spectateur dans l'intimité de la société sénégalaise contemporaine. La série met en scène les rivalités amoureuses, les tensions avec les belles-familles, les secrets de famille et les trahisons professionnelles ou amicales qui menacent constamment la stabilité de leur foyer.",
+    "image": "/images/podetmarichoujpg.jpg",
+    "acteurs": ["Pape Omar Diop","Mariétou Diop"],
+    "enCours": false
+  },
+
+  {
+    "id": 3,
+    "titre": "Maîtresse d'un Homme Marié",
+    "genre": ["Drame","Romance"], 
+    "chaine": "TFM",
+    "annee": 2018,
+    "saisons": 5,
+    "note": 4.9,
+    "synopsis": "Maîtresse d'un homme marié est un drame social sénégalais qui plonge le spectateur dans le quotidien tumultueux de plusieurs femmes à Dakar. L'intrigue centrale gravite autour du personnage de Marème Dial, une femme libre et ambitieuse qui assume publiquement sa relation amoureuse avec Cheikh Diagne, un homme marié à Lalla.Au-delà de ce triangle amoureux, la série dresse le portrait croisé de plusieurs autres figures féminines (Djalika, Amy Diom, Binta, Dior) confrontées aux dures réalités de la société sénégalaise contemporaine. Elle lève le voile sur des sujets intimes et souvent passés sous silence, bousculant les structures familiales traditionnelles et la perception du couple.",
+    "image": "/images/maitresse.jpg",
+    "acteurs": ["Marème Dial ", "Lalla Piem Ndiaye", "Cheikh Diagne" , "Dalanda Lopez"],
+    "enCours": true
+  },
+
+  {
+    "id": 4,
+    "titre": "Wiri Wiri",
+    "genre": ["Comédie","Famille"],
+    "chaine": "TFM",
+    "annee": 2017,
+    "saisons": 6,
+    "note": 4.2,
+    "synopsis": "Cette saga met en scène les conflits familiaux, les trahisons amoureuses et les défis économiques de la société sénégalaise contemporaine. L'intrigue centrale repose sur les relations tumultueuses entre les personnages de Jojo et Soumboulou, rythmées par les interventions comiques et les complots de la troupe Soleil Levant.",
+    "image": "/images/wiriwiri.jpg",
+    "acteurs": ["Cheikhou Gueye","Soumboulou Bathily","Cheikh Ndiaye"],
+    "enCours": true
+  },
+
+  {
+    "id": 5,
+    "titre": "Idoles",
+    "genre": ["Thriller","Drame"],
+    "chaine": "2STV",
+    "annee": 2019,
+    "saisons": 2,
+    "note": 4.3,
+    "synopsis": "L'action principale se déroule au cœur de la rédaction de WESTinfos, un quotidien dakarois de premier plan. La série suit le parcours d'une nouvelle génération de reporters intègres, menée par Malick. Ces journalistes se heurtent rapidement à un mur : leur propre directeur de publication, Tonton Sène, un homme d'expérience respecté mais profondément corrompu. À travers leurs enquêtes, la rédaction devient le miroir des tensions entre la quête de vérité et les forces de l'argent et du pouvoir.",
+    "image": "/images/Idoles.jpg",
+    "acteurs": ["Malick","Cherif Maal"," Latifa Nunz","Paul Almeida"],
+    "enCours": false
+  },
+
+  {
+    "id": 6,
+    "titre": "Bout de Bois de Dieu",
+    "genre": ["Drame","Historique"],
+    "chaine": "Canal+",
+    "annee": 2016,
+    "saisons": 3,
+    "note": 4.0,
+    "synopsis": "Adaptée du roman de Sembène Ousmane, cette série retrace la grande grève des cheminots de la ligne Dakar-Niger en 1947-1948. Un récit épique sur la dignité, la lutte ouvrière et la résistance contre le colonialisme.",
+    "image": "/images/boutdebois.jpg",
+    "acteurs": ["Ramatoulaye","Ibrahima Bakayoko"],
+    "enCours": false
+  },
+
+  {
+    "id": 7,
+    "titre": "Une Famille Sénégalaise",
+    "genre": ["Famille", "Comédie"],
+    "chaine": "SENTV",
+    "annee": 2014,
+    "saisons": 7,
+    "note": 4.1,
+    "synopsis": " « Famille Sénégalaise » retrace la vie quotidienne d'une grande concession familiale à Dakar, explorant la complexité des relations humaines au sein de la société sénégalaise moderne.",
+    "image": "/images/famile.jpg",
+    "acteurs": ["Sokhna Bator", "Mar Lo", "Marietou"],
+    "enCours": false
+  },
+
+  {
+    "id": 8,
+    "titre": "Karma",
+    "genre": ["Romance","Drame"],
+    "chaine": "TFM",
+    "annee": 2020,
+    "saisons": 2,
+    "note": 4.4,
+    "synopsis": "L'histoire est ancrée dans la vie dakaroise moderne. Elle suit un groupe de jeunes adultes d'une vingtaine d'années naviguant entre émancipation urbaine et lourdeurs des traditions sociales. L'intrigue centrale repose sur les secrets, les traumatismes passés, la vengeance et les choix de vie de quatre amies et de leur entourage. ",
+    "image": "/images/serie-senegalaise-karma-saison-3-marodi-tv.jpg",
+    "acteurs": ["Amy Léa","Majib","Ndeye Marie ","Roselyne Marie Sylla","Lamine", "Virginie"],
+    "enCours": false
+  },
+
+  {
+    "id": 9,
+    "titre": "Mbettel",
+    "genre": ["Social", "Drame"],
+    "chaine": "TFM",
+    "annee": 2021,
+    "saisons": 3,
+    "note": 4.6,
+    "synopsis": "La série plonge au cœur de la société sénégalaise contemporaine à travers les crises successives de la famille Diouf. Papa Diouf, un homme d'affaires prospère et respecté, voit son empire et son équilibre familial menacés par l'avarice et les non-dits.Le conflit éclate lorsque sa demi-sœur, Thiaba, décide de réclamer de manière agressive sa part de l'héritage familial, initiant une guerre ouverte. En parallèle, la gestion de l'entreprise avec sa fille aînée Amina et les crises d'adolescence de sa cadette Ndèye Ndiaye fragilisent son foyer. Entre trahisons amicales, secrets du passé révélés et rivalités financières, chaque personnage fait face à des « surprises » (mbettel en wolof) qui bouleversent définitivement leur destin.",
+    "image": "/images/mbettel.jpg",
+    "acteurs": ["Papa Diouf","Rouba","Amina","Ndèye Ndiaye", "Mandione","Serigne Ngagne"],
+    "enCours": true
+  },
+
+  {
+    "id": 10,
+    "titre": "El Hadj Ndiaye",
+    "genre": ["Religieux", "Famille"],
+    "chaine": "RTS1",
+    "annee": 2013,
+    "saisons": 4,
+    "note": 3.9,
+    "synopsis": "Portrait d'un homme de foi confronté aux réalités complexes de la société moderne. Entre devoir religieux et tentations du monde, cette série questionne les valeurs et la spiritualité dans le Sénégal contemporain.",
+    "image": "/images/El-Hadj-Ndiaye-artiste.png",
+    "acteurs": ["Mamadou Ba","Fatimata Diallo", "Cheikh Ndiaye"],
+    "enCours": false
+  },
+
+  {
+    "id": 11,
+    "titre": "Une Certaine Regard",
+    "genre": ["Aventure","Social"],
+    "chaine": "Canal+",
+    "annee": 2022,
+    "saisons": 1,
+    "note": 4.7,
+    "synopsis": "Une plongée spectaculaire dans le monde des pêcheurs artisanaux sénégalais. Face aux grandes compagnies de pêche industrielle, ces hommes et femmes se battent pour préserver leurs traditions et leur mode de vie ancestral.",
+    "image": "/images/eaux.jpg",
+    "acteurs": ["Ibrahima Diop","Yacine Sarr","Oumar Faye"],
+    "enCours": false
+  },
+
+  {
+    "id": 12,
+    "titre": "Lingeer",
+    "genre": ["Historique","Drame"],
+    "chaine": "RTS1",
+    "annee": 2019,
+    "saisons": 2,
+    "note": 4.8,
+    "synopsis": "L'épopée grandiose d'une reine guerrière du royaume du Cayor au XIXe siècle. Une femme exceptionnelle qui défie les conventions de son époque pour diriger son peuple avec courage et sagesse face aux conquérants.",
+    "image": "/images/Lingeer.jpg",
+    "acteurs": ["Ndèye Marie Thiam","Laye Diaw","Awa Sène"],
+    "enCours": false
+  },
+  {
+    "id": 13,
+    "titre": "Ramatoulaye",
+    "genre": ["Romance","Social"],
+    "chaine": "2STV",
+    "annee": 2021,
+    "saisons": 3,
+    "note": 4.3,
+    "synopsis": "Inspirée de la littérature sénégalaise, cette série moderne suit une femme qui navigue entre les exigences de la tradition et ses aspirations personnelles dans le Sénégal d'aujourd'hui. Un portrait fort et émouvant.",
+    "image": "/images/ramatoulaye.jpg",
+    "acteurs": ["Mariama Fall","Pape Ibra Ndiaye","Coumba Sy"],
+    "enCours": true
+  },
+
+  {
+    "id": 14,
+    "titre": "Dakar By Night",
+    "genre": ["Policier","Thriller"],
+    "chaine": "RDV",
+    "annee": 2023,
+    "saisons": 2,
+    "note": 4.5,
+    "synopsis": "Dans les nuits électriques de Dakar, une équipe d'inspecteurs d'élite traque un mystérieux réseau criminel. Tensions, fausses pistes et retournements de situation dans ce thriller urbain haletant.",
+    "image": "/images/dakar.jpeg",
+    "acteurs": ["Samba Ndiaye","Awa Toure","Ibou Fall"],
+    "enCours": true
+  }
+]
