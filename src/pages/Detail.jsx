@@ -12,28 +12,34 @@ function Detail() {
 
   const [serie, setSerie] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [notePerso, setNotePerso] = useState(null)
 
   useEffect(() => {
     setLoading(true)
-
     const timer = setTimeout(() => {
       const trouvee = series.find((s) => s.id === parseInt(id))
       setSerie(trouvee || null)
+      const noteSauvegardee = localStorage.getItem(`note-${id}`)
+      setNotePerso(noteSauvegardee ? parseFloat(noteSauvegardee) : null)
       setLoading(false)
     }, 400)
-
     return () => clearTimeout(timer)
   }, [id])
+
+  const handleNoter = (nouvelleNote) => {
+    setNotePerso(nouvelleNote)
+    localStorage.setItem(`note-${id}`, nouvelleNote)
+  }
 
   if (loading) return <Loader />
 
   if (!serie) {
     return (
       <div className="detail-erreur">
-        <h2> Série introuvable</h2>
+        <h2>Série introuvable</h2>
         <p>L'identifiant <strong>{id}</strong> ne correspond à aucune série.</p>
         <button className="btn-retour" onClick={() => navigate('/')}>
-          Retour au catalogue
+          ← Retour au catalogue
         </button>
       </div>
     )
@@ -42,17 +48,14 @@ function Detail() {
   const favori = estFavori(serie.id)
 
   const handleFavori = () => {
-    if (favori) {
-      retirerFavori(serie.id)
-    } else {
-      ajouterFavori(serie)
-    }
+    if (favori) retirerFavori(serie.id)
+    else ajouterFavori(serie)
   }
 
   return (
     <div className="page-detail">
       <button className="btn-retour" onClick={() => navigate('/')}>
-         Retour au catalogue
+        ← Retour au catalogue
       </button>
 
       <div className="detail-layout">
@@ -68,7 +71,26 @@ function Detail() {
             {serie.enCours && <span className="badge-encours">En cours</span>}
           </div>
 
-          <StarRating note={serie.note} />
+          <div className="detail-notes">
+            <div className="detail-note-bloc">
+              <span className="detail-note-label">Note officielle</span>
+              <StarRating note={serie.note} />
+            </div>
+
+            <div className="detail-note-bloc">
+              <span className="detail-note-label">Votre note</span>
+              <StarRating
+                note={notePerso || 0}
+                interactif={true}
+                onNoter={handleNoter}
+              />
+              {notePerso && (
+                <span className="note-perso-confirmation">
+                  Vous avez noté {notePerso}/5
+                </span>
+              )}
+            </div>
+          </div>
 
           <section className="detail-section">
             <h2 className="detail-section-titre">Synopsis</h2>

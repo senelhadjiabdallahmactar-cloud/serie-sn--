@@ -8,14 +8,13 @@ function Favoris() {
   if (favoris.length === 0) {
     return (
       <div className="favoris-vide">
-        <div className="favoris-vide-icon"></div>
         <h2>Votre liste de favoris est vide</h2>
         <p>
-          Explorez le catalogue et cliquez sur <strong>Ajouter aux favoris</strong>{' '}
+          Explorez le catalogue et cliquez sur <strong>Ajouter aux favoris</strong>
           sur les séries qui vous intéressent !
         </p>
         <Link to="/" className="btn-explorer">
-          Découvrir le catalogue
+          → Découvrir le catalogue
         </Link>
       </div>
     )
