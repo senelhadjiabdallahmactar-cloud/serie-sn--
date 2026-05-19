@@ -1,8 +1,10 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useFavoris } from '../context/FavorisContext'
+import { useTheme } from '../context/ThemeContext'
 
 function Navbar() {
   const { favoris } = useFavoris()
+  const { modeSombre, basculerTheme } = useTheme()
   const location = useLocation()
 
   return (
@@ -14,14 +16,28 @@ function Navbar() {
       </Link>
 
       <div className="navbar-liens">
-        <Link to="/" className={`nav-lien ${location.pathname === '/' ? 'actif' : ''}`}>
+        <Link
+          to="/"
+          className={`nav-lien ${location.pathname === '/' ? 'actif' : ''}`}
+        >
           Accueil
         </Link>
 
-        <Link to="/favoris" className={`nav-lien ${location.pathname === '/favoris' ? 'actif' : ''}`}>
+        <Link
+          to="/favoris"
+          className={`nav-lien ${location.pathname === '/favoris' ? 'actif' : ''}`}
+        >
           Favoris
           <span className="fav-badge">{favoris.length}</span>
         </Link>
+
+        <button
+          className="btn-theme"
+          onClick={basculerTheme}
+          title={modeSombre ? 'Passer en mode clair' : 'Passer en mode sombre'}
+        >
+          {modeSombre ? 'Clair' : 'Sombre'}
+        </button>
       </div>
     </nav>
   )
